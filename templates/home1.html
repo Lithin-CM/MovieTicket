@@ -1,15 +1,252 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/styles1.css' %}">
+    <link rel="icon" type="image" href="{% static 'img/2.png' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL@1" rel="stylesheet" />
+    <title>Triosta</title>
 </head>
 <body>
     <div class="container">
+        <div class="nav-bar">
+
+            <div class="nav-space"></div>
+
+            <a href="#"><img class="logo-img" src="{% static 'img/2.png' %}" alt="img"></a>
+            <input type="text">
+
+            <!-- <div class="nav-space"></div> -->
+
+            <div class="nav-menu">
+
+            </div>
+            <div class="end">
+                <p>Triosta</p>
+            </div>
+        </div>
+
+        <div class="mainbody">     
+            <div class="leftbody">
+                <div class="profile">
+                    <div class="profile-div-1">
+                        <img src="{% static 'img/profile1.png' %}" alt="">
+
+                    </div>
+                    <div class="profile-div-2">
+                        <div class="name">
+                            <h4 style="margin-top: 15px; margin-bottom: 0%;margin-left: 75px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(59, 58, 57);">Lithin C M</h4>
+                            <h5 style="margin: 0;padding-left: 44px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: rgb(131, 130, 124);">Junior Web developer</h5>
+                        </div>
+                
+
+                       
+                        
+                    </div>
+                    <div class="profile-div-3">
+                        <div class="conections">
+                            <h5 style="margin-left: 10px;margin-bottom: 0%;margin-top: 5%;color: rgb(131, 130, 124);">Connections</h5>
+                            <h5 style="margin-left: 10px;margin-top: 3%;margin-bottom: 0%;">Grow your network</h5>
+                        </div>
+                        <span class="material-symbols-outlined" style="margin-top: 10px;margin-left: 60px;">
+                            group_add
+                            </span>
+                    </div>
+                    <div class="profile-div-4">
+                        <h5 style="margin-left: 10px;margin-bottom: 0%;margin-top: 5%;color: rgb(131, 130, 124);">Access exclusive tools & insights</h5>
+                            <h5 style="margin-left: 10px;margin-top: 3%;margin-bottom: 0%;"><img style="margin-right:5px ;" src="{% static 'img/2.png' %}" alt=""> Try Premium for free</h5>
+                        
+                        
+                    </div>
+                    <div class="profile-div-5">
+                        <h5 style="margin: 0%;"><span style="font-size: 20px;margin-left: 6px; " class="material-symbols-outlined">
+                            bookmark
+                            </span>
+                           My items</h5>
+                        
+                        
+                    </div>
+
+                </div>
+                <div class="discover">
+                    <div class="dis-1">
+                        <div>
+                        <h6 style="margin-bottom: 0%;margin-left: 10px;color: blue;">Groups</h6>
+                        <h6 style="margin-bottom: 0%;margin-top: 10%;margin-left: 10px;color: blue;">Events</h6>
+                        <h6 style="margin-bottom: 0%;margin-top: 10%;margin-left: 10px;color: blue;">Followed Hashtags</h6>
+                        </div>
+                        <div>
+                            <span style="margin-left: 80px;margin-top: 40px;" class="material-symbols-outlined">
+                                add
+                                </span>
+                        </div>
+                    </div>
+
+                    <div class="dis-2">
+                        <h4 style="margin-top: 10px;margin-left: 60px;color: rgb(131, 130, 124);">Discover more</h4>
+
+                    </div>
+                
+                </div>
+            </div>
+
+
+
+            <div class="centerbody">
+                <div class="topbox">
+                    <div class="topboxProfile">
+                        <img src="{% static 'img/profile1.png' %}" alt="img">
+                        <input  type="text" placeholder="Start a post">
+
+                    </div>
+                    <div class="n2">
+                        <div class="m1">
+                            <img src="{% static 'img/1.png' %}" alt="">
+                            <h5>Photo</h5>
+                        </div>
+                        <div class="m2">
+                            <img src="{% static 'img/2.png' %}" alt="">
+                            <h5>Video</h5>
+                        </div>
+                        <div class="m3">
+                            <img src="{% static 'img/2.png' %}" alt="">
+                            <h5>Events</h5>
+                        </div>
+                        <div class="m4">
+                            <img src="{% static 'img/2.png' %}" alt="">
+                            <h5>Write Article</h5>
+                        </div>
+                       
+
+                    </div>
+                
+                </div>
+                <div class="line">
+                    <div class="line-1"></div>
+                    <div class="line-2">
+                        <p>Sort by : Top<span style="font-size: 20px; margin: 0%;" class="material-symbols-outlined">
+                            expand_more
+                            </span></p>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="field-profile">
+                        <div class="post-profile-column">
+                            <img src="{% static 'img/profile1.png' %}" alt="img">
+                            <div class="post-profile-name">
+                                <h4>Lithin C M</h4>
+                                <h6>1,686,734 followers <br>6h.</h6>
+                            </div>
+                        </div>
+                        <span class="material-symbols-outlined">
+                            more_horiz
+                            </span>
+
+                    </div>
+                    <div class="title">
+                        <p>Introducing Triosta: Your one-stop destination for fashion finds and social connection! 
+                            🛍️✨ Shop the latest trends, connect with fellow fashionistas,
+                             and elevate your style game like never before. #TriostaLaunch #FashionFinds</p>
+
+                    </div>
+                    <div class="field-img">
+                        <img src="{% static 'img/2.png' %}" alt="">
+
+                    </div>
+                    <div class="like">
+                        <img src="{% static 'img/2.png' %}" alt="">
+                        <img src="{% static 'img/1.png' %}" alt="">
+
+                    </div>
+                    <div class="comment">
+                        <div class="o">
+                            <span class="material-symbols-outlined">
+                                thumb_up_off_alt
+                                </span>
+                                <p>Like</p>
+                        </div>
+                        <div class="o">
+                            <span class="material-symbols-outlined">
+                                comment
+                                </span>
+                                <p>Comment</p>
+                            </div>
+
+                        <div class="o">
+                            <span class="material-symbols-outlined">
+                                reply_all
+                                </span>
+                                <p>Share</p>
+                        </div>
+                        <div class="o">
+                            <span class="material-symbols-outlined">
+                                send
+                                </span>
+                                <p>Send</p>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+            
+
+
+        
+            <div class="rightbody">
+                <div class="news">
+                    <div class="in-news">
+                        <h4 style="color: rgb(77, 76, 74);margin-left: 15px;;">Linkedin News <span style="margin-left: 160px;" class="material-symbols-outlined">
+                            help_center
+                            </span></h4>
+                    </div>
+                    <div style="margin-left: 20px;" class="news-data">
+
+
+                        <h4 style="margin: 0%;"><span style="font-size: 10px;color: rgb(77, 76, 74);margin-right: 5px;" class="material-symbols-outlined">
+                            fiber_manual_record
+                            </span>No time for job search?</h4>
+                            <h6 style="margin-left: 15px;margin-top: 2%;color: rgb(150, 148, 145);margin-bottom: 4%;">5d ago . 5,008 readers</h6>
+                            <h4 style="margin: 0%;"><span style="font-size: 10px;color: rgb(77, 76, 74);margin-right: 5px;" class="material-symbols-outlined">
+                                fiber_manual_record
+                                </span>No time for job search?</h4>
+                                <h6 style="margin-left: 15px;margin-top: 2%;color: rgb(150, 148, 145);margin-bottom: 4%;">5d ago . 5,008 readers</h6>
+                                <h4 style="margin: 0%;"><span style="font-size: 10px;color: rgb(77, 76, 74);margin-right: 5px;" class="material-symbols-outlined">
+                                    fiber_manual_record
+                                    </span>No time for job search?</h4>
+                                    <h6 style="margin-left: 15px;margin-top: 2%;color: rgb(150, 148, 145);margin-bottom: 4%;">5d ago . 5,008 readers</h6>
+                                    <h6 style="margin-left: 15px;margin-top: 2%;color: rgb(150, 148, 145);margin-bottom: 4%;">5d ago . 5,008 readers</h6>
+                                    <h4 style="margin: 0%;"><span style="font-size: 10px;color: rgb(77, 76, 74);margin-right: 5px;" class="material-symbols-outlined">
+                                        fiber_manual_record
+                                        </span>No time for job search?</h4>
+                                        <h6 style="margin-left: 15px;margin-top: 2%;color: rgb(150, 148, 145);margin-bottom: 4%;">5d ago . 5,008 readers</h6>
+                                       
+                       
+                    </div>
+                    <div class="news-footer">
+                                        <h4 style="margin-left: 40px;color: rgb(148, 163, 163);">Show more<span style="margin-left: 10px;" class="material-symbols-outlined">
+                                            expand_more
+                                            </span></h4>
+                    </div>
+
+                </div>
+                <div class="footer">
+                    <p><a href="#">About  </a> <a href="#">Accessibility   </a><a href="#">Help Center</a><br><a href="#">Privacy & Terms </a><a href="#">Ad Choices</a><br><a href="#">Advertising</a><a href="#">Business Services</a><br><a href="#">Get the Linkedin app</a><a href="#">More</a><br></p>
+                    <div class="footer-2">
+                        <img src="{% static 'img/2.png' %}" alt="img">
+                        <p>LinkedIn Corporation © 2021</p>
+                    </div>
+
+                </div>
+            </div>
+
+        
+        </div>
+
         
     </div>
-    
+
 </body>
 </html>

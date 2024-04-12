@@ -1,0 +1,380 @@
+/* styles.css */
+
+
+body{
+    margin: 0;
+}
+
+
+.nav-bar{
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    height: 52px;
+    background: #fff;
+    display: flex;
+    border: 1px solid rgb(222, 233, 243);
+
+}
+.logo-img{
+    height: 37px;
+}
+.nav-space{
+    height: 40px;
+    width: 120px;
+    
+}
+.nav-bar input{
+    margin-left: 10px;
+    width: 300px;
+    height: 36px;
+    border-radius: 5px;
+    background: rgba(238, 243, 248,1);
+    border: none;
+
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    
+   
+   width: 550px;
+  
+    
+}
+.end{
+    height: 52px;
+    border-left: 1px solid rgb(222, 233, 243);
+    width: 110px;
+
+}
+.end p{
+    margin-left: 40px;
+    color: rgb(224, 168, 94);
+    font-size: 13px;
+}
+.me{
+    display: flex;
+}
+
+.menu-icon{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.menu-icon img{
+   height: 25px;
+   border-radius: 100px;
+}
+
+.body-x{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mainbody{
+    display: flex;
+    background-color: #f3f2ef;
+    justify-content: space-between;
+}
+.leftbody{
+    margin-left: 110px;
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+}
+.centerbody{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.rightbody{
+    margin-right: 110px;
+    width: 23.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 576px) {
+    .leftbody,.rightbody{
+        display: none;
+    }
+    .centerbody{
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .topboxProfile input{
+        height: 40px;
+        margin-right: 10px;
+        max-width: 400px;
+        border-radius: 50px;
+    }
+    
+  }
+  
+.topbox{
+    border: 1px solid rgb(222, 233, 243);
+    border-radius: 10px;
+    margin-top: 52px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}   
+.topboxProfile{
+    display: flex;
+}
+.topboxProfile img{
+    height: 50px;
+    border-radius: 100px;
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.topboxProfile input{
+    border:2px solid rgb(201, 184, 184);
+    margin-top: 15px;
+    height: 40px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.profile{
+    border: 1px solid rgb(222, 233, 243);
+    border-radius: 10px;
+    margin-top: 52px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 340px;
+
+}
+.news{
+    border: 1px solid rgb(222, 233, 243);
+    border-radius: 10px;
+    margin-top: 52px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 340px;
+    margin-bottom: 5px;
+
+}
+.field{
+    border-radius: 10px;
+    border: 1px solid rgb(222, 233, 243);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 560px;
+    margin-top: 5px;
+}
+.discover{
+    
+    position: sticky;
+    top: 63px;
+    margin-top: 5px;
+
+    border-radius: 10px;
+    border: 1px solid rgb(222, 233, 243);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 140px;
+}
+.profile-div-1{
+    background-image: url(img/Image_Cover.jpg);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 16%;
+}
+.profile-div-2{
+   border-bottom:2px solid #f3f2ef;
+    width: 100%;
+    height: 33%;
+}
+.profile-div-3{
+    display: flex;
+    border-bottom:2px solid #f3f2ef;
+    width: 100%;
+    height: 18%;
+}
+.profile-div-4{
+    border-bottom:2px solid #f3f2ef;
+    width: 100%;
+    height: 18%;
+}
+.profile-div-5{
+    
+    width: 100%;
+    height: 15%;
+}
+.profile-div-1 img{
+    height: 70px;
+    border-radius: 100px;
+    margin-top: 21px;
+    margin-left: 80px;
+}
+.profile-div-2{
+    margin-top: 0px;
+    
+}
+.name{
+    padding-top: 40px;
+   
+}
+.profile-div-4 img{
+    height: 15px;
+}
+.dis-1{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    border-bottom: 2px solid #f3f2ef;
+
+}
+
+.line{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.line-1{
+    
+    width: 80%;
+    border-bottom: 1px solid rgb(201, 184, 184);
+}
+.line-2 p{
+    margin-left: 5px;
+    font-size: 13px;
+
+}
+
+.m1 img{
+    height: 20px;
+    margin-right: 10px;
+}
+.m2 img{
+    
+    height: 20px;
+    margin-right: 10px;
+}
+.m3 img{
+    height: 20px;
+    margin-right: 10px;
+}
+.m4 img{
+    height: 20px;
+    margin-right: 10px;
+
+}
+.n2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0%;
+}
+.m1{
+    display: flex;
+    align-items: center;
+
+}
+.m2{
+    display: flex;
+    align-items: center;
+
+}
+.m3{
+    display: flex;
+    align-items: center;
+
+}
+.m4{
+    display: flex;
+    align-items: center;
+
+}
+.field-profile img{
+    height: 40px;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.field-profile{
+    margin-top: 20px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.field-profile h4{
+    margin: 0;
+}
+.field-profile h6{
+    margin-top: 1px;
+}
+.post-profile-name{
+    height: 50px;
+}
+.post-profile-column{
+    display: flex;
+    flex-direction: row;
+}
+.title{
+    margin: 10px;
+}
+.title p{
+    margin-top: 0%;
+}
+.field-img img{
+    height: 303px;
+}
+.like img{
+    height: 18px;
+    margin-top: 10px;
+}
+.like{
+    margin-left: 20px;
+    border-bottom: 2px solid #f3f2ef;
+}
+.comment{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.o{
+    display: flex;
+    align-items: center;
+}
+.menu-icon p{
+    font-size: 13px;
+   
+    margin: 5px;
+}
+.footer{
+    position: sticky;
+    top: 63px;
+    margin-top: 5px;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(134, 134, 131);
+    margin-left: 30px;
+    font-size: 14px;
+    
+}
+.footer-2 img{
+    height: 35px;
+    margin-left: 30px;
+}
+.footer-2{
+    display: flex;
+    align-items: center;
+}
+.footer-2 p{
+    color: rgb(90, 90, 88);
+}

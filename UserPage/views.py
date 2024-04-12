@@ -7,6 +7,6 @@ def home(request):
     if request.session.has_key('admin'):
         return HttpResponse("Admin home page")
     elif request.session.has_key('user'):
-        return render(request,'home.html')
+        return render(request,'home1.html')
     else:
         return redirect(views.signIn)
