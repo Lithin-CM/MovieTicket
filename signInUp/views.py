@@ -5,6 +5,8 @@ from .forms import createUserForm, CreateLoginForm
 from UserPage import views
 # Create your views here.
 
+
+
 def signUp(request):
     if request.session.has_key('admin'):
         return HttpResponse("Admin home page")

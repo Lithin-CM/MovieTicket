@@ -1,0 +1,383 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/leftbody.css' %}">
+    <link rel="stylesheet" href="{% static 'css/centerbody.css' %}">
+    <link rel="stylesheet" href="{% static 'css/rightbody.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+
+
+
+    <link rel="icon" type="image" href="{% static 'img/logo.png' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL@1" rel="stylesheet" />
+    <title>Triosta</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+
+            <div class="nav-space"></div>
+
+            <a href="#"><img class="logo-img" src="{% static 'img/logo.png' %}" alt="img"></a>
+            <input type="text" placeholder=" search...">
+
+            <!-- <div class="nav-space"></div> -->
+
+            <div class="nav-menu">
+
+            </div>
+            
+        </div>
+
+        <div class="mainbody">     
+            <div class="leftbody">
+                <div class="profile">
+                    <div class="profile-div-1">
+                        <img src="{% static 'img/4.jpeg' %}" alt="">
+                    </div>
+                    <div class="profile-div-2">
+                        <div class="name">
+                            <h4 style="margin-top: 15px; margin-bottom: 0%;margin-left: 75px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: goldenrod;">user name</h4>
+                            <h5 style="margin: 0;padding-left: 44px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: rgb(185, 185, 185);">position</h5>
+                        </div>
+                
+
+                       
+                        
+                    </div>
+                    <div class="profile-div-3">
+                        <div class="conections">
+                            <h5 style="margin-left: 10px;margin-bottom: 0%;margin-top: 5%;color: rgb(131, 130, 124);">Connections</h5>
+                            <h5 style="margin-left: 10px;margin-top: 3%;margin-bottom: 0%;">Grow your network</h5>
+                        </div>
+                        <span class="material-symbols-outlined" style="margin-top: 10px;margin-left: 60px;">
+                            group_add
+                            </span>
+                    </div>
+                    <div class="profile-div-4">
+                        <h5 style="margin-left: 10px;margin-bottom: 0%;margin-top: 5%;color: rgb(131, 130, 124);">Access exclusive tools & insights</h5>
+                            <h5 style="margin-left: 10px;margin-top: 3%;margin-bottom: 0%;"><img style="margin-right:5px ;" src="{% static 'img/logo.png' %}" alt=""> Try Premium for free</h5>
+                        
+                        
+                    </div>
+                    <div class="profile-div-5">
+                        <span style="font-size: 20px;margin-left: 10px;" class="material-symbols-outlined">
+                            bookmark
+                            </span>
+                        <h5 style="margin: 0%;">
+                           My items</h5>
+                        
+                        
+                    </div>
+
+                </div>
+                <div class="discover">
+                    <div class="discover-1">
+                        <div>
+                        <h6 style="margin-bottom: 0%;margin-left: 10px;">Groups</h6>
+                        <h6 style="margin-bottom: 0%;margin-top: 10%;margin-left: 10px;">Events</h6>
+                        <h6 style="margin-bottom: 0%;margin-top: 10%;margin-left: 10px;">Followed Hashtags</h6>
+                        </div>
+                        <div>
+                            <span style="margin-left: 80px;margin-top: 40px;" class="material-symbols-outlined">
+                                add
+                                </span>
+                        </div>
+                    </div>
+
+                    <div class="dis-2">
+                        <h4 style="margin-top: 10px;margin-left: 60px;">Discover more</h4>
+
+                    </div>
+                
+                </div>
+            </div>
+
+
+
+            <div class="centerbody">
+                 <div id="storybox">
+                    <div class="story">
+                        <div class="storyProfile">
+                            <div class="storyProfileImg">
+                                <img src="{% static 'img/1.jpeg' %}" alt="story image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story">
+                        <div class="storyProfile">
+                            <div class="storyProfileImg">
+                                <img src="{% static 'img/2.jpeg' %}" alt="story image">
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="story">
+                        <div class="storyProfile">
+                            <div class="storyProfileImg">
+                                <img src="{% static 'img/3.jpeg' %}" alt="story image">
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="story">
+                        <div class="storyProfile">
+                            <div class="storyProfileImg">
+                                <img src="{% static 'img/4.jpeg' %}" alt="story image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story">
+                        <div class="storyProfile">
+                            <div class="storyProfileImg">
+                                <img src="{% static 'img/5.jpeg' %}" alt="story image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story">
+                        <div class="storyProfile">
+                            <div class="storyProfileImg">
+                                <img src="{% static 'img/2.jpeg' %}" alt="story image">
+                            </div>
+                        </div>
+                    </div>                 
+                </div>
+
+                <div class="post-container">
+                    <div class="post">
+                        <img class="post-img" src="{% static 'img/2.jpeg' %}" alt="post">
+                        <div class="post-actions">
+                            <span class="material-symbols-outlined">
+                                favorite
+                                </span>
+                            <span class="material-symbols-outlined">
+                                short_text
+                                </span>
+                            <span class="material-symbols-outlined">
+                                share
+                                </span>
+                        </div>
+                        <div class="post-tagged-items">
+                            <span class="material-symbols-outlined">
+                                shopping_bag
+                                </span>
+                                <span>4 items</span>
+                        </div>
+                    </div>
+                    <!-- <div class="post-tagged-items-display">
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                    </div> -->
+                    <div class="post-profile-details">
+                        <div class="post-profilepic-outrtborder">
+                            <div class="post-profilepic-innerborder">
+                                <div class="post-profilepic">
+                                    <img src="{% static 'img/2.jpeg' %}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Roshan_mathew <span class="post-text">"this post is not real."</span></h6>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post">
+                        <img class="post-img" src="{% static 'img/1.jpeg' %}" alt="post">
+                        <div class="post-actions">
+                            <span class="material-symbols-outlined">
+                                favorite
+                                </span>
+                            <span class="material-symbols-outlined">
+                                short_text
+                                </span>
+                            <span class="material-symbols-outlined">
+                                shopping_cart
+                                </span>
+                        </div>
+                        <div id="postTaggedItems" class="post-tagged-items" onclick="togglePostTaggedItemsDiv()">
+                            <span class="material-symbols-outlined">shopping_bag</span>
+                            <span>4 items</span>
+                        </div>
+                    </div>
+                    <div id="postTaggedItemsDisplay" class="post-tagged-items-display">
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                    </div>
+                    <div class="post-profile-details">
+                        <div class="post-profilepic-outrtborder">
+                            <div class="post-profilepic-innerborder">
+                                <div class="post-profilepic">
+                                    <img src="{% static 'img/1.jpeg' %}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Roshan_mathew <span class="post-text">"this post is not real this post is not realthis post is not realthis post is not realthis post is not realthis post is not realthis post is not realthis post is not realthis post is not real."</span></h6>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post">
+                        <img class="post-img" src="{% static 'img/4.jpeg' %}" alt="post">
+                        <div class="post-actions">
+                            <span class="material-symbols-outlined">
+                                favorite
+                                </span>
+                            <span class="material-symbols-outlined">
+                                short_text
+                                </span>
+                            <span class="material-symbols-outlined">
+                                shopping_cart
+                                </span>
+                        </div>
+                        <div class="post-tagged-items">
+                            <span class="material-symbols-outlined">
+                                shopping_bag
+                                </span>
+                                <span>4 items</span>
+                        </div>
+                    </div>
+                    <!-- <div class="post-tagged-items-display">
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                    </div> -->
+                    <div class="post-profile-details">
+                        <div class="post-profilepic-outrtborder">
+                            <div class="post-profilepic-innerborder">
+                                <div class="post-profilepic">
+                                    <img src="{% static 'img/4.jpeg' %}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Roshan_mathew <span class="post-text">"this post is not real this post is not realthis post is not realthis post is not realthis post is not realthis post is not realthis post is not realthis post is not realthis post is not real."</span></h6>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post">
+                        <img class="post-img" src="{% static 'img/3.jpeg' %}" alt="post">
+                        <div class="post-actions">
+                            <span class="material-symbols-outlined">
+                                favorite
+                                </span>
+                            <span class="material-symbols-outlined">
+                                short_text
+                                </span>
+                            <span class="material-symbols-outlined">
+                                shopping_cart
+                                </span>
+                        </div>
+                        <div class="post-tagged-items">
+                            <span class="material-symbols-outlined">
+                                shopping_bag
+                                </span>
+                                <span>4 items</span>
+                        </div>
+                    </div>
+                    <!-- <div class="post-tagged-items-display">
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                        <div class="post-tagged-items-pic"></div>
+                    </div> -->
+                    <div class="post-profile-details">
+                        <div class="post-profilepic-outrtborder">
+                            <div class="post-profilepic-innerborder">
+                                <div class="post-profilepic">
+                                    <img src="{% static 'img/3.jpeg' %}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <h6>Roshan_mathew <span class="post-text">"this post is not real."</span></h6>
+                    </div>
+                </div>
+
+
+    {% comment %} centerbody posts ending {% endcomment %}
+        
+            </div>
+            
+
+
+        
+            <div class="rightbody">
+                <div id="carousel-container">
+                    <div class="carousel-slide">
+                        <img src="{% static 'img/banner1.jpeg' %}" alt="Image 1">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="{% static 'img/banner2.jpeg' %}" alt="Image 2">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="{% static 'img/banner3.jpeg' %}" alt="Image 3">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="{% static 'img/banner4.jpeg' %}" alt="Image 4">
+                    </div>
+                
+                    <!-- Navigation buttons -->
+                    <button id="prevBtn" onclick="prevSlide()">previous</button>
+                    <button id="nextBtn" onclick="nextSlide()">next</button>
+                </div>
+                <div id="display-container">
+                    <div id="rightbody-items">
+                        <div class="single-item">
+                            <img src="{% static 'img/product_one_1.jpeg' %}" alt="">
+                        </div>
+                        <div class="single-item">
+                            <img src="{% static 'img/product_one_2.jpeg' %}" alt="">
+                        </div>
+                        <div class="single-item">
+                            <img src="{% static 'img/product_one_3.jpeg' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <a href="#">About</a>
+                    <a href="#">Accessibility</a>
+                    <a href="#">Help Center</a>
+                    <a href="#">Privacy & Terms</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Business Services</a>
+                    <a href="#">Get the Triosta app</a>
+                    <a href="#">More..</a>
+                    <div class="footer-2">
+                        <img src="{% static 'img/logoname.png' %}" alt="img">
+                        <p>Triosta Corporation © 2024</p>
+                    </div>
+
+                </div>
+            </div>
+
+        
+        </div>
+
+        
+    </div>
+    <script src="{% static 'js/home.js' %}"></script>
+</body>
+</html>
